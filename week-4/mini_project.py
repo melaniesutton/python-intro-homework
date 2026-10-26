@@ -28,6 +28,6 @@ for tag in tags:
 # High scorers: ["Jazmine", "Sara", "Priya", "Mia", "Eli"]
 high_scorers = []
 for student in students:
-    if student["score"] >= 75:
+    if student["score"] > 75:
         high_scorers.append(student["name"])
 print(high_scorers)   
